@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="picnic.css">
+    
+    <title>Bootstrap demo</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+
+
+
+
+
+
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="http://127.0.0.1:5500/index.html">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-light" href="#">Picnic Points</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-light">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success text-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+<!-- slider -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<div class="arraival">
+  <h1 class="text-bg-dark text-center mt-5">Our Tour In Pakistan</h1>
+</div>
+
+<div class="container mt-5">
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active mt-5" data-bs-interval="10000">     
+        <img src="badshahi-masjid.jpg" class="d-block w-100 slide-img " alt="...">
+        <div class="carousel-caption d-none d-md-block ">
+          <h5 class="text-bg-dark">Badshahi Masjid, Lahore</h5>
+          <p class="text-light">The Badshahi Mosque in Lahore was commissioned by the sixth Mughal Emperor Aurangzeb. Constructed between 1671 and 1673, it was the largest mosque in the world upon construction</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="faisal masjid.jpg" class="d-block w-100 slide-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-bg-dark">faisal Masjid, Islamabad</h5>
+          <p class="text-light">he Faisal Mosque is the largest mosque in Pakistan, located in the national capital city of Islamabad. Completed in 1986, it was designed by Turkish architect Vedat Dalokay</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="skardu.webp" class="d-block w-100 slide-img" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="text-bg-dark">skardu</h5>
+          <p class="text-light"> Skardu serves as the capital of Skardu District and the Baltistan Division. It is situated at an elevation of nearly 2,500 metres (8,202 feet) in the Skardu Valley, at the confluence of the Indus and Shigar Rivers.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+<!-- card -->
+
+<div class="container-fluid catagories ">
+  <h1 class="text-center mt-5"> catagories</h1>
+  <div class="row col-4 mt-5" id="details">
+
+  </div>
+</div>
+
+
+
+
+
+
+<!-- <div class="product">
+  <h1 class="text-bg-dark text-center mt-5">Our Tour Places</h1>
+</div>
+<div class="card mt-5" style="width: 18rem;">
+  <img src="img/astore.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Astore</h5>
+    <p class="card-text">The primary pack material used here is 915D CORDURA®, which is durable and highly water-resistant. The front side has a TPU-like coating, which adds extra protection from the elements. </p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div> -->
+
+  </body>
+  <script src="picnic.js"></script>
+</html>
